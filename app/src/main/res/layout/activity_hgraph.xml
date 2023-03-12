@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_500">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="292dp"
+        android:layout_height="33dp"
+        android:text="Helper - Calculator grafice"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="300dp"
+        android:layout_height="594dp"
+        android:layout_marginTop="5dp"
+        android:text="Introduceti functia de variabila x  al carei grafic doriti sa il desenati\n
+Functii permise: \n   Functiile trigonometrice clasice si inversele lor atat cu notatia in romana cat si ce in engleza \n
+abs(x) - modul de x, signum(x) - functia semn,sqrt(x) - radical\n
+log(x)/ln(x) - logaritm natural x\n
+log2(x), log10(x) logaritm in baza 2 respectiv 10\n
+logb(x,b), logaritm in baza b din x\n
+constante precum e, pi, π,φ pot fi folosite\n
+operatiile clasice +,-,*,/ pot fi folosite fara paranteze, evaluatorul respectand ordinea operatiilor\n
+ "
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

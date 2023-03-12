@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Math_Grapher_Homepage</string>
+    <string name="Title">Math Grapher</string>
+    <string name="Title_Lin">Math Grapher - Functia liniara</string>
+    <string name="Title_Put">Math Grapher - Functia putere</string>
+    <string name="Title_Exp">Math Grapher - Functia exponentiala</string>
+    <string name="Title_Log">Math Grapher - Functia logaritmica</string>
+    <string name="Title_Sin">Math Grapher - Functia sinus</string>
+    <string name="Title_Cos">Math Grapher - Functia cosinus</string>
+    <string name="Title_Tg">Math Grapher - Functia tangenta</string>
+    <string name="Title_Ctg">Math Grapher - Functia cotangenta</string>
+</resources>

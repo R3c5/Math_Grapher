@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/Title"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Math_Grapher_Homepage"
+        tools:ignore="ExtraText">
+
+        <activity
+            android:name=".Hgraph"
+            android:theme="@style/Theme.Math_Grapher_Homepage.Popup"></activity>
+
+        <activity android:name=".GraphCalculator" />
+        <activity
+            android:name=".Lin"
+            android:label="@string/Title_Lin" />
+        <activity
+            android:name=".Put"
+            android:label="@string/Title_Put" />
+        <activity
+            android:name=".Log"
+            android:label="@string/Title_Log" />
+        <activity
+            android:name=".Exp"
+            android:label="@string/Title_Exp" />
+        <activity
+            android:name=".Sin"
+            android:label="@string/Title_Sin" />
+        <activity
+            android:name=".Cos"
+            android:label="@string/Title_Cos" />
+        <activity
+            android:name=".Tg"
+            android:label="@string/Title_Tg" />
+        <activity
+            android:name=".Ctg"
+            android:label="@string/Title_Ctg" />
+        <activity android:name=".AlegeGraficFunctieElem" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HLin"
+            android:theme="@style/Theme.Math_Grapher_Homepage.Popup"></activity>
+        <activity
+            android:name=".HPut"
+            android:theme="@style/Theme.Math_Grapher_Homepage.Popup"></activity>
+        <activity
+            android:name=".HLog"
+            android:theme="@style/Theme.Math_Grapher_Homepage.Popup"></activity>
+        <activity
+            android:name=".HExp"
+            android:theme="@style/Theme.Math_Grapher_Homepage.Popup"></activity>
+    </application>
+
+</manifest>
